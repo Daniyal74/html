@@ -6,13 +6,35 @@
     <title>Syed Daniyal Shah | Learning HTML</title>
 </head>
 <body style="background-color: #212121;">
-    <h1 style="color:#fff; font-size: 60px;">Introduction</h1>
+    <h1 style="color:#fff; font-size: 60px; font-family:Verdana; text-align: center;">Introduction</h1>
+    <!--Use the style attribute for styling HTML elements
+        Use background-color for background color
+        Use color for text colors
+        Use font-family for text fonts
+        Use font-size for text sizes
+        Use text-align for text alignment-->
+    <hr>
     <!--The title attribute defines some extra information about an element.
 The value of the title attribute will be displayed as a tooltip when you mouse over the element:-->
-    <p style="color:magenta" title="Education Background">Syed Daniyal Shah had completed engineering degree in 2016 from
-        NED university of Engineering and Technology.
-    </p>
-    <p style="color:aqua">Information about Javascript</p>
+    <h2 style="color:aquamarine; font-size: 20px; font-family:Cambria"><b><i>Educational Background</i></b></h2>
+    <hr>
+    <p style="color:magenta; font-family:Segoe UI;" title="Education Background"><strong>Syed Daniyal Shah had completed engineering degree in 2016 from
+        <mark>NED university of Engineering and Technology.</mark></strong></p>
+    <h3 style="color:#fff; font-family:Arial; text-align: center;"><i>Quotation from WWF Website</i></h3>
+    <p style="color:beige; font-family: Cambria;">Here is a quote from WWF's website:<br>
+
+        <q>For 60 years, WWF has worked to help people and nature thrive. As the world's leading <br>conservation organization, WWF works in nearly 100 countries. <br>At every level, we collaborate with people around the world to develop and deliver innovative solutions <br>that protect communities, wildlife, and the places in which they live.</q></p>
+    <p style="color:aqua; font-family:Segoe UI;">Information about Javascript</p>
+    <!--preformatted text which is to be presented exactly as written in the HTML file-->
+    <pre style="#fff">
+        My Bonnie lies over the ocean.
+      
+        My Bonnie lies over the sea.
+      
+        My Bonnie lies over the ocean.
+      
+        Oh, bring back my Bonnie to me.
+      </pre>
     <!--This is a format for link.-->
     <a href="https://en.wikipedia.org/wiki/JavaScript" style="color:blanchedalmond">Click Here</a>
 
@@ -24,8 +46,41 @@ The value of the title attribute will be displayed as a tooltip when you mouse o
         Attributes provide additional information about elements
         Attributes are always specified in the start tag
         Attributes usually come in name/value pairs like: name="value"-->
-
     
+        <!--Each parameter (red, green, and blue) defines the intensity 
+    of the color with a value between 0 and 255.-->
+    
+    <!--For example, rgb(255, 0, 0) is displayed as red, because red is set 
+    to its highest value (255), and the other two (green and blue) are set to 0.
+
+    Another example, rgb(0, 255, 0) is displayed as green, because green is set 
+    to its highest value (255), and the other two (red and blue) are set to 0.-->
+
+    <!--rgba(red, green, blue, alpha) The alpha parameter is a number 
+    between 0.0 (fully transparent) and 1.0 (not transparent at all):-->
+
+    <!--HEX Color Values: #rrggbb Where rr (red), gg (green) and bb (blue) are hexadecimal 
+    values between 00 and ff (same as decimal 0-255).
+    
+    For example, #ff0000 is displayed as red, because red is set to its highest value (ff), 
+    and the other two (green and blue) are set to 00.
+    
+    #00ff00 is displayed as green, because green is set to its highest value (ff), 
+    and the other two (red and blue) are set to 00.-->
+
+    <!--HSL Color Values: hsl(hue, saturation, lightness) 
+    hue is a degree on the color wheel from 0 to 360. 
+    0 is red, 120 is green, and 240 is blue.
+    
+    Saturation is a percentage value. 0% means a shade of gray, and 
+    100% is the full color.
+    
+    Lightness is also a percentage value. 0% is black, and 100% is white.
+    
+    hsla(hue, saturation, lightness, alpha)
+
+    The alpha parameter is a number between 
+    0.0 (fully transparent) and 1.0 (not transparent at all)-->
 
 
 </body>
